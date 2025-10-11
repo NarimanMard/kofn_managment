@@ -83,7 +83,7 @@ class CommandLineEmulator(tk.Tk):
     def ls(self, args):
         output = f"{' '.join(args)}\n"
         self.display_output(output)
-
+        
     def cd(self, args):
         output = f"{' '.join(args)}\n"
         self.display_output(output)
